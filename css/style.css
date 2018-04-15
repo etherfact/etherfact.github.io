@@ -1,4 +1,9 @@
-﻿@media (min-width: 1200px){
+body {
+    -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
+    zoom: 0.8; /* Other non-webkit browsers */
+    zoom: 80%; /* Webkit browsers */
+}
+@media (min-width: 1200px){
     .container {
         width: 1200px !important;
     }
