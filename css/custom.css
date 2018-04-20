@@ -1,0 +1,194 @@
+/*! Place your custom styles here */
+
+.benefits .row .col-sm-4 {
+  margin-bottom: 40px;
+}
+
+p.release {
+  color: white;
+  padding-top: .5em;
+  font-size: 1.2em;
+}
+
+.release a, .release a:visited {
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
+.release a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.benefits p {
+  margin-bottom: 0;
+}
+
+.fa-fw {
+  color: #f08b16;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-header {
+  min-height:344px;
+  background-color: black;
+  background-image: url(../img/background.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .site-header {
+      background-attachment: scroll;
+  }
+}
+
+@media (max-width: 767px) {
+  .dropdown .dropdown__content {
+      padding: 0 1.2em .3em;
+  }
+}
+
+.dropdown .dropdown__content {
+  min-width: 200px;
+  border:1px solid #eee;
+  border-radius: 0;
+  border-width:1px 1px 3px 1px;
+  box-shadow: none;
+  --webkit-box-shadow: none;
+}
+
+@media (min-width: 991px)  {
+  .dropdown .dropdown__container:before {
+    height: 0px;
+  }
+}
+
+#ticker, #ticker_value {
+  font-weight: 400;
+  color: white;
+}
+
+.ticker {
+  padding-top: 15px;
+}
+
+.lead {
+  color: white;
+}
+
+section.no-bottom {
+  padding-bottom: 0;
+}
+
+section.no-top {
+  padding-top: 0;
+}
+
+section.gray {
+  background-color: #FAFAFA;
+}
+
+section.border-bottom {
+  border-bottom: 1px solid #EAEAEA;
+}
+
+p.question {
+  font-size: 1.3em;
+  font-weight: 350;
+  font-variant-ligatures: common-ligatures;
+  color: #f08b16;
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  margin-bottom: 1.04em;
+}
+
+.nodes div a:hover, .wallets div a:hover, .services div a:hover, .exchanges div a:hover{
+  border-bottom: 3px solid #F08B16;
+}
+
+.nodes div a, .wallets div a, .services div a, .exchanges div a{
+  padding: 2em;
+  width: 100%;
+  height: 120px;
+  display: block;
+  background: white;
+  border:1px solid #eee;
+  border-width:1px 1px 3px 1px;
+
+  -webkit-transition: border-color 250ms ease;
+  -moz-transition: border-color 250ms ease;
+  -o-transition: border-color 250ms ease;
+  -ms-transition: border-color 250ms ease;
+  transition: border-color 250ms ease;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5em;
+}
+
+@media all and (min-width: 990px) {
+  .menu-vertical li {
+    white-space: normal;
+  }
+}
+
+body{}
+.name{font-weight:bold;font-size:42px;color:#fff;}
+.bar-1 .menu-horizontal > li > .dropdown__trigger, .bar-1 .menu-horizontal > li > a{padding-right:10px;font-size:16px;font-weight:bold;color:#000 !important;}
+.menu-horizontal li:after{content:"|";font-size:11px;line-height:12px;}
+.menu-horizontal li:last-child:after{content:"";}
+.menu-horizontal li li:after{content:"";}
+section.space--xxs{padding:6em 0 0 0;border-bottom:solid 1px #ddd;}
+section.space--xxs h3{display:inline-block;padding-bottom:20px;border-bottom:solid 5px #4a90e2;}
+
+.fa-fw{color:#4a90e2;}
+p.question{color:#4a90e2;}
+.nodes div a:hover, .wallets div a:hover, .services div a:hover, .exchanges div a:hover{border-bottom-color:#4a90e2;}
+
+
+
+.is-scroll .nav-scroll {
+    background-color: #fff;
+}
+
+.nav-scroll {
+    -webkit-transition-property: background-color;
+    -o-transition-property: background-color;
+    transition-property: background-color;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 800;
+	-webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+	-webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+	background:#fff;
+}
+
+.bar .logo {
+  max-height: auto !important;
+}
+@media all and (min-width: 990px) {
+
+	.bar .logo {
+	  margin: 0;
+	  position: relative;
+	  top: 0px;
+	}
+}
