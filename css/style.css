@@ -1,4 +1,4 @@
-@media (min-width: 1200px){
+﻿@media (min-width: 1200px){
     .container {
         width: 1200px !important;
     }
@@ -831,10 +831,10 @@ h3
 }
 .wapper-banner
 {
-    background-image: url(../images/banner_bacgroud.png);
+    background-image: url(../images/anh3.jpg);
     background-repeat: no-repeat;
-    min-height: 650px;
-    background-size: cover;
+    min-height: 550px;
+    background-size: 1910px 550px;
     width: 100%;
 }
 
@@ -992,7 +992,7 @@ h3
 {
     background: #fffff;
 }
-.page .page__inner-wrap {
+.page .factinner-wrap {
     clear: both;
     width: 100%;
     float: left;
