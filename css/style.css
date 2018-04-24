@@ -1268,7 +1268,7 @@ p {
     left: 16px;
     top: 9px;
     width: 2px;
-    height: 365px;
+    height: 405px;
     opacity: .2;
     background-image: linear-gradient(0deg,#fae80b,rgb(252, 235, 11) 51%,hsl(55, 96%, 51%) 70%);
 }
