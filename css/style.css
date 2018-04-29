@@ -834,7 +834,7 @@ h3
     background-image: url(../images/anh3.jpg);
     background-repeat: no-repeat;
     min-height: 550px;
-    background-size: 1910px 550px;
+    background-size: 100% 550px;
     width: 100%;
 }
 
