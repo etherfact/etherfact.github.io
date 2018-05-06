@@ -11956,4 +11956,4 @@ webpackJsonp([0], {
     wwvz: function(t, e) {},
     yHhA: function(t, e) {}
 }, ["NHnr"]);
-$('body').find('img[src$="https://www.etherfact.org/img/whatis.png"]').style = "object-fit: cover;"
+$('body').find('img[src$="https://www.etherfact.org/img/whatis.png"]').style = "object-fit: cover; -webkit-user-select: none;"
