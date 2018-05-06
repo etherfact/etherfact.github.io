@@ -11329,7 +11329,7 @@ webpackJsonp([0], {
                     video: "img/whatis.png",
                     download: {
                         text: "Download White Paper",
-                        link: "static/whitepaper-en.pdf"
+                        link: "Whitepaper/whitepaper-etherfact.pdf"
                     }
                 },
                 features: {
@@ -11689,7 +11689,7 @@ webpackJsonp([0], {
                     content: "EtherFact là một nhánh của việc triển khai giao thức Ethereum. Nó là bản fork theo nghĩa là nó sử dụng cùng một codebase; không phải sổ cái giống nhau. EtherFact là Ethereum cũng giống như như Litecoin là Bitcoin.",
                     download: {
                         text: "Tải xuống Whitepaper",
-                        link: "static/whitepaper-vn.pdf"
+                        link: "Whitepaper/whitepaper-etherfact-vn.pdf"
                     },
                     video: "img/whatis.png"
                 },
@@ -11956,4 +11956,3 @@ webpackJsonp([0], {
     wwvz: function(t, e) {},
     yHhA: function(t, e) {}
 }, ["NHnr"]);
-$('body').find('img[src$="https://www.etherfact.org/img/whatis.png"]').style = "object-fit: cover; -webkit-user-select: none;"
