@@ -3089,10 +3089,10 @@ a[data-v-f026dbc2]:visited {
 	background-size: contain;
 	background-image: url(../images/main_img_small@2x.png);
 	background-repeat: no-repeat;
-	width: 100%;
+	width: 1300px;
 	height: 100%;
 	top: -50px;
-	left: 1200px;
+	left: calc(100% - 570px);
 }
 
 @media(max-width:480px) {
