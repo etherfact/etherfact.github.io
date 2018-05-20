@@ -10523,6 +10523,13 @@ webpackJsonp([0], {
               height: 24,
               link: "https://github.com/EtherFact-Project"
             }
+		  }), t._v(" "), n("image-link", {
+            attrs: {
+              source: "socials/medium@2x.png",
+              width: 24,
+              height: 24,
+              link: "https://medium.com/etherfact-org"
+            }
           }), t._v(" "), n("image-link", {
             attrs: {
               source: "socials/bitcointalk@2x.png",
