@@ -1,4 +1,4 @@
-﻿! function(r) {
+! function(r) {
   var n = window.webpackJsonp;
   window.webpackJsonp = function(e, u, c) {
     for (var f, i, p, a = 0, l = []; a < e.length; a++) i = e[a], o[i] && l.push(o[i][0]), o[i] = 0;
